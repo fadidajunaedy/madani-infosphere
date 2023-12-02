@@ -5,7 +5,7 @@ import Modal from "../../../components/modal"
 import ModalConfirm from "../../../components/modal/confirm"
 import { LRUCache } from 'lru-cache'
 
-const CatatanRapat = () => {
+const CatatanRapatEksternal = () => {
     const [data, setData] = useState([])
     const cache = new LRUCache({ max: 5000 })
 
@@ -25,9 +25,9 @@ const CatatanRapat = () => {
         <>
             <Modal />
             <ModalConfirm />
-            <Reports title={"Catatan Rapat"} data={data} category="knowledge-center" subcategory="catatan-rapat"/>
+            <Reports title={"Catatan Rapat Eksternal"} data={data} category="knowledge-center" subcategory="catatan-rapat-eksternal"/>
         </>
     )
 }
 
-export default CatatanRapat
+export default CatatanRapatEksternal

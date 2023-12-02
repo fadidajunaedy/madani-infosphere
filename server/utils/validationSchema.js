@@ -85,6 +85,7 @@ const contactBodyValidation = (body) => {
             city: Joi.string().required().error(new Error("Kota/Negara harus diisi")),
             telephone: Joi.any().error(new Error("Nomor Telepon harus diisi")),
             position: Joi.string().required().error(new Error("Jabatan harus diisi")),
+            category: Joi.string().required().error(new Error("Kategori harus diisi")),
             classification: Joi.string().required().error(new Error("Klasifikasi Telepon Harus diisi harus diisi")),
             createdUser: Joi.string().required().error(new Error("Created User harus diisi"))
         });

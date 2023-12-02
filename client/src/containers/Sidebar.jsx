@@ -130,7 +130,7 @@ const Sidebar = () => {
                     <li className="ml-7"><NavLink to="/siaran-pers">Siaran Pers</NavLink></li>
                     <li className="ml-7"><NavLink to="/infografik">Infografik</NavLink></li>
                     <li className="ml-7"><NavLink to="/media-monitoring">Media Monitoring</NavLink></li>
-                    <li className="ml-7"><NavLink to="/catatan-rapat">Catatan Rapat</NavLink></li>
+                    <li className="ml-7"><NavLink to="/catatan-rapat-eksternal">Catatan Rapat Eksternal</NavLink></li>
                     <li className="ml-7"><NavLink to="/asset-digital">Asset Digital</NavLink></li>
                     <li className="ml-7"><NavLink to="/direktori-kontak">Direktori Kontak</NavLink></li>
                     <li className="ml-7"><NavLink to="/media-coverage">Media Coverage</NavLink></li>

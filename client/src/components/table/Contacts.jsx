@@ -172,14 +172,7 @@ const TableContacts = ({title, data}) => {
                                     </span>
                                 )}
                             </th>
-                            <th className="text-left cursor-pointer" onClick={() => handleSort("position")}>
-                                Jabatan
-                                {sortColumn === "position" && (
-                                    <span className="ml-2">
-                                    {sortOrder === "asc" ? "↑" : "↓"}
-                                    </span>
-                                )}
-                            </th>
+                           
                             <th className="text-left cursor-pointer" onClick={() => handleSort("email")}>
                                 Email
                                 {sortColumn === "email" && (
@@ -191,6 +184,14 @@ const TableContacts = ({title, data}) => {
                             <th className="text-left cursor-pointer" onClick={() => handleSort("telephone")}>
                                 Nomor Telephone
                                 {sortColumn === "telephone" && (
+                                    <span className="ml-2">
+                                    {sortOrder === "asc" ? "↑" : "↓"}
+                                    </span>
+                                )}
+                            </th>
+                            <th className="text-left cursor-pointer" onClick={() => handleSort("category")}>
+                                Kategori
+                                {sortColumn === "category" && (
                                     <span className="ml-2">
                                     {sortOrder === "asc" ? "↑" : "↓"}
                                     </span>
@@ -212,9 +213,9 @@ const TableContacts = ({title, data}) => {
                             <th>{calculateRowNumber(index)}</th>
                             <td>{currData.name}</td>
                             <td>{currData.institution}</td>
-                            <td>{currData.position}</td>
                             <td>{currData.email}</td>
                             <td>{currData.telephone}</td>
+                            <td>{currData.category}</td>
                             <td>
                                 <div className="h-full flex justify-center items-center gap-4">
                                     <button onClick={() => showModal("CONTACT", currData)}>

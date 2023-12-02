@@ -91,8 +91,8 @@ const categories =
                 value: "infografik"
             },
             {
-                label: "Catatan Rapat",
-                value: "catatan-rapat"
+                label: "Catatan Rapat Eksternal",
+                value: "catatan-rapat-eksternal"
             },
             {
                 label: "Asset Digital",
@@ -136,8 +136,8 @@ const hrgaCategories = [
         value: "knowledge-center",
         subcategory: [  
             {
-                label: "Catatan Rapat",
-                value: "catatan-rapat"
+                label: "Catatan Rapat Eksternal",
+                value: "catatan-rapat-eksternal"
             }
         ]
     },
@@ -159,8 +159,8 @@ const financeCategories = [
         value: "knowledge-center",
         subcategory: [  
             {
-                label: "Catatan Rapat",
-                value: "catatan-rapat"
+                label: "Catatan Rapat Eksternal",
+                value: "catatan-rapat-eksternal"
             }
         ]
     },
@@ -194,8 +194,8 @@ const commsCategories = [
                 value: "media-monitoring"
             },
             {
-                label: "Catatan Rapat",
-                value: "catatan-rapat"
+                label: "Catatan Rapat Eksternal",
+                value: "catatan-rapat-eksternal"
             },
             {
                 label: "Asset Digital",
@@ -257,8 +257,8 @@ const programCategories = [
                 value: "db-spasial"
             },
             {
-                label: "Catatan Rapat",
-                value: "catatan-rapat"
+                label: "Catatan Rapat Eksternal",
+                value: "catatan-rapat-eksternal"
             }
         ]
     },
@@ -298,8 +298,8 @@ const knowledgeManagementCategories = [
                 value: "media-monitoring"
             },
             {
-                label: "Catatan Rapat",
-                value: "catatan-rapat"
+                label: "Catatan Rapat Eksternal",
+                value: "catatan-rapat-eksternal"
             },  
         ]
     },

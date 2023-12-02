@@ -24,6 +24,9 @@ module.exports = (sequelize, DataTypes) => {
         position: {
             type: DataTypes.STRING,
         },
+        category: {
+            type: DataTypes.STRING,
+        },
         classification: {
             type: DataTypes.STRING,
         },

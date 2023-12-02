@@ -16,6 +16,7 @@ const EditContact = () => {
     const [city, setCity] = useState("")
     const [telephone, setTelephone] = useState("")
     const [position, setPosition] = useState("")
+    const [category, setCategory] = useState("")
     const [classification, setClassification] = useState("")
     
     const { showErrorAlert, showSuccessAlert } = useAlert()
@@ -31,6 +32,7 @@ const EditContact = () => {
             setCity(data.city)
             setTelephone(data.telephone)
             setPosition(data.position)
+            setCategory(data.category)
             setClassification(data.classification)
         })
     }, [])
@@ -47,6 +49,7 @@ const EditContact = () => {
             city: city,
             telephone: telephone,
             position: position,
+            category: category,
             classification: classification
         }
 
@@ -106,6 +109,23 @@ const EditContact = () => {
                         <span className="label-text font-bold">Jabatan</span>
                     </label>
                     <input type="text" className="input input-bordered w-full max-w-md" onChange={(e) => setPosition(e.target.value)}  value={position}/>
+                </div>
+                <div className="w-full flex flex-col lg:flex-row justify-between lg:items-center my-4">
+                    <label className="label">
+                        <span className="label-text font-bold">Kategori</span>
+                    </label>
+                    <select className="select select-bordered w-full lg:max-w-md" onChange={(e) => setCategory(e.target.value)}  value={category}>
+                        <option value="">Pilih satu</option>
+                        <option value="cso">CSO</option>
+                        <option value="media">Media</option>
+                        <option value="pemerintah-daerah">Pemerintah Daerah</option>
+                        <option value="pemerintah-pusat">Pemerintah Pusat</option>
+                        <option value="donor">Donor</option>
+                        <option value="pemerintah-asing">Pemerintah Asing</option>
+                        <option value="akademisi">Akademisi</option>
+                        <option value="private-sector">Private Sector</option>
+                        <option value="sobat-madani">Sobat Madani</option>
+                    </select>
                 </div>
                 <div className="w-full flex flex-col lg:flex-row justify-between lg:items-center my-4">
                     <label className="label">

@@ -39,6 +39,10 @@ const Contact = ({data, handleHiddenModal}) => {
                             <td className="break-words">{data.position}</td>
                         </tr>
                         <tr>
+                            <th>Kategori</th>
+                            <td className="break-words">{data.category}</td>
+                        </tr>
+                        <tr>
                             <th>Klasifikasi</th>
                             <td className="break-words">{data.classification}</td>
                         </tr>

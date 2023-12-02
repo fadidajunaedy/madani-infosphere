@@ -17,7 +17,7 @@ import DatabaseSpasial from "../pages/protected/knowledge-center/DatabaseSpasial
 import SiaranPers from "../pages/protected/knowledge-center/SiaranPers"
 import Infografik from "../pages/protected/knowledge-center/Infografik"
 import MediaMonitoring from "../pages/protected/knowledge-center/MediaMonitoring"
-import CatatanRapat from "../pages/protected/knowledge-center/CatatanRapat"
+import CatatanRapatEksternal from "../pages/protected/knowledge-center/CatatanRapatEksternal"
 import AssetDigital from "../pages/protected/knowledge-center/AssetDigital"
 import DirektoriKontak from "../pages/protected/knowledge-center/DirektoriKontak"
 import MediaCoverage from "../pages/protected/knowledge-center/MediaCoverage"
@@ -115,8 +115,8 @@ const routes = [
     component: MediaMonitoring,
   },
   {
-    path: '/catatan-rapat',
-    component: CatatanRapat,
+    path: '/catatan-rapat-eksternal',
+    component: CatatanRapatEksternal,
   },
   {
     path: '/asset-digital',

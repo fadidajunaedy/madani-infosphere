@@ -43,6 +43,7 @@ const addContact = async (req, res) => {
             city: req.body.city,
             telephone: req.body.telephone,
             position: req.body.position,
+            category: req.body.category,
             classification: req.body.classification,
             createdUser: req.body.createdUser
         }
@@ -91,6 +92,7 @@ const updateContact = async (req, res) => {
         contact.city = req.body.city || contact.city;
         contact.telephone = req.body.telephone || contact.telephone;
         contact.position = req.body.position || contact.position;
+        contact.category = req.body.category || contact.category;
         contact.classification = req.body.classification || contact.classification;
         contact.createdUser = req.body.createdUser || contact.createdUser 
 
