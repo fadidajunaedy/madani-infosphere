@@ -1,0 +1,32 @@
+{
+  "name": "node_express_sequelize_mysql_api",
+  "version": "1.0.0",
+  "description": "node express crud api with sequelize",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mysql"
+  ],
+  "author": "Fadida Junaedy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "joi": "^17.11.0",
+    "joi-password-complexity": "^5.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.2",
+    "nodemailer": "^6.9.7",
+    "sequelize": "^6.8.0"
+  }
+}

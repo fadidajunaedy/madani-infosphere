@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.select__control {
+  background-color: unset !important;
+  padding: 3px;
+  border-width: 0.2px !important;
+  border-radius: 6px !important;
+}
+
+.select__input {
+  background-color: unset !important;
+}
+
+.select__multi-value {
+  background-color: #BBF7D0 !important;
+  border-radius: 6px !important;
+  overflow: hidden !important;
+}
+.select__multi-value__label {
+  color: #16A34A !important;
+  padding: 6px 12px !important;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.select__multi-value__label, .select__multi-value__remove {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: unset !important;
+}
+
+.select__multi-value__remove {
+  height: 100%;
+  width: 32px !important;
+  padding: 12px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ html[data-theme="dark"] .select__menu {
+  background-color: #2A303C !important;
+}
+
+.rdt_TableHeadRow,
+.sc-iKOmII {
+  background-color: #F2F2F2;
+  color: #6F6F6F;
+  font-weight: 700;
+  padding: 24px 0;
+}
+
+html[data-theme="dark"] .rdt_TableHeadRow,
+html[data-theme="dark"] .sc-iKOmII {
+  background-color: #191E24;
+  color: #686868;
+}
+
+html[data-theme="dark"] .rdt_TableRow,
+/* Header */
+html[data-theme="dark"] .sc-dJGLgI { 
+  background: #1D232A !important;
+  color: #FFFFFF !important;
+}
+
+/* Select row per page */
+html[data-theme="dark"] .sc-cyZbyy {
+  background: #191E24 !important;
+  color: #FFFFFF !important;
+}
+
+html[data-theme="dark"] .sc-eAKtVq svg path:nth-child(1) {
+  fill: #FFFFFF;
+}
+
+.rdt_TableCell,
+.rdt_TableCol {
+  width: 100% !important;
+  max-width: 24px;
+}
+
+html[data-theme="dark"] .sc-iuONiq {
+  background: #1D232A !important;
+  color: #FFFFFF !important;
+}
+
+/*
+.rdt_TableCell:nth-child(2),
+.rdt_TableCol:nth-child(2) {
+  background-color: red;
+  width: auto !important;
+  max-width: 60px;
+} 
+
+.rdt_TableCell:nth-child(4),
+.rdt_TableCol:nth-child(4) {
+  display: flex;
+  background-color: green;
+  width: auto !important;
+  max-width: 60px;
+}
+*/
+/* Sub Header */
+

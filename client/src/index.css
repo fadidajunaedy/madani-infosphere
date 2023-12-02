@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth !important;
+}
+body {
+    font-family: 'Onest', sans-serif;
+}
+
+.navbar {
+    width: -webkit-fill-available;
+}
+
+.menu li {
+    border-radius: 0 !important;
+}
+
+
+.menu li span, .menu NavLink, .menu li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 0px;
+}
+
+.menu .active {
+    border-left: 4px #176B87 solid;
+    background-color: unset !important;
+    color: unset !important;
+    font-weight: 600;
+    
+}
+
+.menu :where(li ul) { 
+    position: unset !important;
+}
+
+.btn {
+    color: #FFFFFF !important;
+    text-transform: unset !important;
+}
+
+.btn-ghost,
+.btn-square {
+    color: unset !important;
+    text-transform: unset !important;
+}
+
+/* .btn:hover {
+    color: #FFFFFF !important;
+    text-transform: unset !important;
+} */
+
+.btn-primary, .btn-secondary, .btn-accent {
+    color: #FFFFFF !important;
+}
+
+
+
+html[data-theme="light"] .menu .active {
+    background-color: #F0F0F0 !important;
+}
+
+html[data-theme="dark"] .menu .active {
+    background-color: #191E24 !important;
+}
+
+html[data-theme="dark"] {
+  background-color: black !important;
+  color: white;
+}
+
+
+
